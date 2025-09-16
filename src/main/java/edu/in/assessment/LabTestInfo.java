@@ -6,7 +6,7 @@ import java.util.List;
 class LabTestInfo {
     // Private attribute to store test details as "testName:cost"
     private List<String> testList = new ArrayList<>();
-    private String name = "vinoth";
+    private final String name = "vinoth";
 
     // Adds a single test detail string to the list
     public void addTestDetails(String testDetails) {
